@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Tabuada
+{
+    public static void main(String args[]){
+        Scanner teclado = new Scanner(System.in);
+        int numero, i, res;
+        System.out.println("Digite o numero da tabuada");
+        numero = teclado.nextInt();
+        i = 0;
+        while(i <= 10){
+            res = numero * i;
+            System.out.println(res);
+            i = i+1;
+        }
+    }}
+    
